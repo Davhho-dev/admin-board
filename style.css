@@ -6,8 +6,8 @@
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 4fr;
-    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 6.15fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .topnav {
@@ -17,6 +17,7 @@
     grid-area: 1 / 2 / 2 / 3;
     gap: 25px;
     margin-top: 25px;
+    margin-left: 100px;
 }
 
 input {
@@ -95,4 +96,27 @@ button {
     border-radius: 25px;
     border: none;
     background-color: #1992D3;
+}
+
+/* Sidebar */
+
+.sidebar{
+    background-color: #1992D3;
+    grid-row: 1 / 3;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.logo-icon {
+    width: 70px;
+    height: auto;
+}
+
+h1 {
+    font-family: "Roboto";
+    color: white;
 }
