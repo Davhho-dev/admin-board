@@ -199,10 +199,21 @@ button {
     border-radius: 15px;
     border-left: 15px solid #F0B329;
     box-shadow: 5px 10px 5px rgb(140, 139, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-#project-card > p {
+.card-header {
+    margin-left: 25px;
+    width: 85%;
+    line-height: 25px;
+}
+
+.card-header > p {
     color: #717171;
+    font-size: 1.2rem;
+    padding-top: 25px;
 }
 
 .title {
@@ -215,4 +226,16 @@ button {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 35px;
+}
+
+.tri-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.tri-icons > img {
+    width: 32px;
+    height: auto;
 }
