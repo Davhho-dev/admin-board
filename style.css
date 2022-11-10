@@ -251,7 +251,7 @@ button {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     background-color: white;
-    height: 500px;
+    height: 400px;
     width: 350px;
     border-radius: 15px;
     box-shadow: 5px 10px 10px rgb(211, 211, 211);
