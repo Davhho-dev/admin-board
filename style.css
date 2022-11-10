@@ -16,8 +16,12 @@
     grid-template-columns: auto auto;
     grid-area: 1 / 2 / 2 / 3;
     gap: 25px;
-    margin-top: 25px;
-    margin-left: 100px;
+    margin: 25px 0px 10px 0px;
+    box-shadow: 0px 10px 10px rgb(211, 211, 211);
+}
+
+.topnav > * {
+    padding-left: 130px;
 }
 
 input {
@@ -67,8 +71,9 @@ input:focus {
 
 .welcome-container {
     display: flex;
-    align-items: end;
+    align-items: center;
     gap: 25px;
+    margin-bottom: 25px;
 }
 
 .welcome-container > .avitar-icon {
@@ -179,7 +184,35 @@ button {
     grid-area: 1 / 1 / 3 / 2;
 }
 
+.projects > p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 25px;
+    padding-left: 125px;
+}
+
 #project-card {
     background-color: white;
-    border: 1px solid black;
+    width: 60%;
+    height: 250px;
+    justify-self: center;
+    border-radius: 15px;
+    border-left: 15px solid #F0B329;
+    box-shadow: 5px 10px 5px rgb(140, 139, 139);
+}
+
+#project-card > p {
+    color: #717171;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.project-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 35px;
 }
