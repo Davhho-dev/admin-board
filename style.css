@@ -172,6 +172,7 @@ button {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 1fr;
     background-color: #E2E8F0;
+    font-family: "Roboto"
 }
 
 .projects {
