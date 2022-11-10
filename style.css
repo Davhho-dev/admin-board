@@ -167,4 +167,13 @@ button {
 }
 
 /* BODY - PROJECTS, ANNOUNCEMENT, TRENDING */
+.body-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    background-color: #E2E8F0;
+}
 
+.projects {
+    grid-area: 1 / 1 / 3 / 2;
+}
